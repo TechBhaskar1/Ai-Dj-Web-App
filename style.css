@@ -1,0 +1,56 @@
+body {
+    background: url("background.jpg");
+    background-size: cover;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive;
+    letter-spacing: 3px;
+    padding: 20px;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+.note {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#play{
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid aqua;
+    color: white ;
+}
+
+.gif {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#speed,
+#volume {
+    font-size: 30px;
+}
+
+#speed_div {
+    float: left;
+    width: 200px;
+}
+
+#volume_div {
+    float: right;
+    width: 200px;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 50px;
+}
